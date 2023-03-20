@@ -11,14 +11,16 @@
 <body>
     <h1>Projeto IMC</h1>
     <h4>Seu peso (Em quilos): </h4>
-    <input type="text" id="peso">
+    <input type="number" id="peso">
     <h4>Sua altura (Em metros): </h4>
-    <input type="text" id="altura">
+    <input type="number" id="altura">
     <p>
     <button onclick="calcularIMC()"> Calcular </button>
     </p>
     <h4>Resultado: </h4>
-    <input type="text" id="result" readonly>
+    <div class="resultado">
+        <h4 id="txt-resultado">  nada</h4>
+    </div>
     
 
 
